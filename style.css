@@ -7,3 +7,24 @@
 }
 
 /* Write CSS code below */
+body{
+    display: block;
+background-color: #a6abad;
+}
+.left-section {
+grid-column: span 1;
+background-color: #242531;
+
+} 
+.right-section{
+    grid-column: span 1/span 2;
+    background-color: #f7f7f7;
+  
+}  
+.main-content{
+    min-height: 1000px;
+    width: 90%;
+    margin: 20px auto;
+    display: grid;
+    grid-template-columns: 300px 700px;
+}
