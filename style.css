@@ -11,15 +11,16 @@ body{
     display: block;
 background-color: #a6abad;
 }
+section{
+    display: block;
+}
 .left-section {
-grid-column: span 1;
 background-color: #242531;
-
+grid-column:span 1;
 } 
 .right-section{
-    grid-column: span 1/span 2;
-    background-color: #f7f7f7;
-  
+       background-color: #f7f7f7;
+ grid-column:span 1/ span 2;
 }  
 .main-content{
     min-height: 1000px;
@@ -27,4 +28,32 @@ background-color: #242531;
     margin: 20px auto;
     display: grid;
     grid-template-columns: 300px 700px;
+}
+img{
+    border-radius: 100px;
+    margin-left: 50px;
+    margin-top: 10px;
+    position: relative;
+      
+}
+.profile-details{
+    text-align: center;
+    justify-content: center;
+    margin-top: 20px;
+    color: #ffff;
+}
+h4{
+    color: aqua;
+}
+
+#icon{
+   margin: 20px;
+  color:royalblue;
+ margin-left: 50px;
+}
+.personal{
+    display:grid;
+    color: #ffff;
+    margin: 10px;
+ t
 }
