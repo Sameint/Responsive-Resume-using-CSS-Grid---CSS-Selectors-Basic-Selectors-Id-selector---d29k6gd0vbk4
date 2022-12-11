@@ -55,5 +55,32 @@ h4{
     display:grid;
     color: #ffff;
     margin: 10px;
- t
+ 
+}
+.skill-title{
+    margin-top: 40px;
+    margin-left: 35%;
+    color: #ffff;
+}
+.fields{
+    margin-left: 30px;
+    margin-top: 30px;
+    color: #ffff;
+  
+}
+.about{
+    margin-left: 30PX;
+    margin-top: 15px;
+}
+p{
+    font-family: "Trirong", serif;
+    margin-top: 15px;
+}
+h5{
+    margin-top: 20px;
+}
+@media screen and (max-width:630px) {
+    .main-content{
+        grid-template-columns: repeat(1,1fr);
+    }
 }
