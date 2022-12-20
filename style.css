@@ -71,6 +71,8 @@ h4{
 .about{
     margin-left: 30PX;
     margin-top: 15px;
+    font-size: 1rem;
+    padding: 0.5rem;
 }
 p{
     font-family: "Trirong", serif;
